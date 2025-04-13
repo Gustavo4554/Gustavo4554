@@ -21,6 +21,8 @@ jobs:
         with:
           target_branch: output
           build_dir: dist
+          # Adiciona essa linha opcional se quiser criar o branch automaticamente
+          # create_branch: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           
